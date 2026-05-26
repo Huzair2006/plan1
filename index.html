@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan1 - Vercel Speed Insights Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .feature {
+            background: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .media-gallery {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .media-gallery img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 10px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Plan1</h1>
+        <p>This project is now powered by Vercel Speed Insights! We're tracking real-world performance metrics to ensure the best user experience.</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>⚡ Speed Insights</h3>
+                <p>Real-time performance monitoring</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Analytics</h3>
+                <p>Comprehensive metrics tracking</p>
+            </div>
+            <div class="feature">
+                <h3>🚀 Optimized</h3>
+                <p>Built for performance</p>
+            </div>
+        </div>
+        
+        <div class="media-gallery">
+            <h2>Gallery</h2>
+            <img src="/camel.png" alt="Camel" style="max-width: 300px;">
+            <img src="/HafizUzair.jpeg" alt="Hafiz Uzair" style="max-width: 300px;">
+        </div>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
