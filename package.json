@@ -1,0 +1,17 @@
+{
+  "name": "plan1",
+  "version": "1.0.0",
+  "description": "Project with Vercel Speed Insights",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Build complete'",
+    "lint": "echo 'No linter configured for static HTML project'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.1.0"
+  }
+}
